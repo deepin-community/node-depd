@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-depd-$1/ \
+ https://github.com/dougwilson/nodejs-depd/tags .*/archive/.*/v?([\d\.]+).tar.gz

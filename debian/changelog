@@ -1,0 +1,75 @@
+node-depd (2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove MIA uploader Andrew Kelley <superjoe30@gmail.com>. Closes: #909870
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Update standards version to 4.6.0, no changes needed.
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Use dh-sequence-nodejs
+    * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Add myself to uploaders list
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 16:36:31 +0100
+
+node-depd (2.0.0-1) unstable; urgency=medium
+
+  * Team Upload.
+  * New upstream version 2.0.0
+  * Switch to pkg-js-tools (Closes: #952341)
+  * Remove un-needed patch
+  * Add upstream/metadata
+  * Drop compat, switch to debhelper-compat
+  * Add "Rules-Requires-Root:no"
+  * Bump standards version to 4.5.0
+
+ -- Nilesh Patra <npatra974@gmail.com>  Mon, 24 Feb 2020 16:20:39 +0530
+
+node-depd (1.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Move to salsa
+  * Bump compat and policy (no changes)
+  * Do not use eval prefer function constructor.
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 14 May 2018 13:52:53 +0200
+
+node-depd (1.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Run mocha as autopkgtest as well
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 02 Sep 2017 10:03:30 +0530
+
+node-depd (1.0.1-1) unstable; urgency=medium
+
+  * Import upstream version 1.0.1.
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sat, 16 May 2015 23:11:34 +0000
+
+node-depd (1.0.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump standards version
+  * Add lib to install
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sat, 11 Oct 2014 21:43:00 +0200
+
+node-depd (0.4.4-1) unstable; urgency=low
+
+  * Update to upstream 0.4.4
+  * Simpler autopkgtest
+  * Remove commented out junk in rules
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Fri, 12 Sep 2014 18:01:25 +0200
+
+node-depd (0.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #753015)
+
+ -- Andrew Kelley <superjoe30@gmail.com>  Sun, 06 Jul 2014 17:07:39 +0200
